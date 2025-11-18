@@ -31,4 +31,10 @@ def call_emotion_detector():
     sadness = result["sadness"]
     dominant_emotion = result["dominant emotion"]
 
-    return f"For the given statement, the system response is \'anger\': {anger}, \'disgust\': {disgust}, \'fear\': {fear}, \'joy\': {joy} and \'sadness\': {sadness}. The dominant emotion is {dominant_emotion}"
+    return f"""For the given statement, the system response is
+    \'anger\': {anger}, 
+    \'disgust\': {disgust}, 
+    \'fear\': {fear}, 
+    \'joy\': {joy} and 
+    \'sadness\': {sadness}. 
+    The dominant emotion is {dominant_emotion}"""
